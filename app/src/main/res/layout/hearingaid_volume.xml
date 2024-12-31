@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+
+    <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="AmpliTech Pro V2"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textStyle="bold" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:text="Volume Control"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+    <!-- Volume Section -->
+    <RelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="176dp"
+            android:src="@drawable/ggg"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/volumeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="Volume: 50"
+        android:textSize="20sp"
+        android:layout_marginLeft="150dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <SeekBar
+        android:id="@+id/volumeSeekBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="15dp"
+        android:progressDrawable="@drawable/custom_progress"/>
+
+
+    <Button
+        android:id="@+id/Connected_Button"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Connect to Hearing Aid Volume Control"
+        android:textStyle="bold"
+        android:backgroundTint="#15225D"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp" />
+
+
+    <!-- Multimedia Button -->
+
+
+    <!-- Footer -->
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="570dp"
+        android:src="@drawable/sss" />
+</RelativeLayout>

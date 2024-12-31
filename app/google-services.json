@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "338199450274",
+    "project_id": "amplitecprov2",
+    "storage_bucket": "amplitecprov2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338199450274:android:104c9d22f7b07427fafdfb",
+        "android_client_info": {
+          "package_name": "com.example.amplitec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTaLFqlbCk6DLECLJ1oiEJ7Ve0MM9C4GU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-feature android:name="android.hardware.bluetooth" />
+    <uses-feature android:name="android.hardware.bluetooth_le" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Amplitec"
+        tools:targetApi="31">
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Login Page Activity -->
+        <activity android:name=".LoginPageActivity" />
+        <!-- Register Page Activity -->
+        <activity android:name=".RegisterPageActivity" />
+        <!-- Welcome Page Activity -->
+        <activity android:name=".WelcomePage" />
+        <!-- Multimedia Page Activity -->
+        <activity android:name=".MultimediaActivity" />
+        <!-- HearingAid Page Activity -->
+        <activity android:name=".HearingAidActivity" />
+        <!-- HearingAidVolume Page Activity -->
+        <activity android:name=".HearingAidVolume" />
+        <!-- BatteryStatus Page Activity -->
+        <activity android:name=".BatteryStatusActivity" />
+
+    </application>
+
+</manifest>

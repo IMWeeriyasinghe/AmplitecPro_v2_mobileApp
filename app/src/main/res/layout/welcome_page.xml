@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="AmpliTech Pro V2"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textStyle="bold" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="WELCOME"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+    <!-- Hearing Aid Section -->
+    <RelativeLayout
+        android:layout_width="175dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="144dp"
+            android:src="@drawable/xx"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- Multimedia Section -->
+    <RelativeLayout
+        android:layout_width="175dp"
+        android:layout_height="176dp"
+        android:layout_marginTop="260dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="164dp"
+            android:src="@drawable/ee"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <!-- Hearing Aid Button -->
+    <Button
+        android:id="@+id/Hearing_aid"
+        android:layout_width="157dp"
+        android:layout_height="56dp"
+        android:text="Hearing Aid"
+        android:textStyle="bold"
+        android:backgroundTint="#15225D"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp" />
+
+
+    <!-- Multimedia Button -->
+    <Button
+        android:id="@+id/multimedia"
+        android:layout_width="157dp"
+        android:layout_height="56dp"
+        android:text="Multimedia"
+        android:textStyle="bold"
+        android:backgroundTint="#15225D"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="440dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp" />
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="157dp"
+        android:layout_height="56dp"
+        android:text="LogOut"
+        android:textStyle="bold"
+        android:backgroundTint="#15225D"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="505dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="120dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp" />
+
+    <!-- Footer -->
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="570dp"
+        android:src="@drawable/sss" />
+</RelativeLayout>

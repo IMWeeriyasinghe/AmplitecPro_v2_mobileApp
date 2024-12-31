@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+
+    <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="AmpliTech Pro V2"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView for Playlist -->
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/playlist_recycler_view"
+        android:layout_width="347dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="180dp" />
+
+
+
+    <Button
+        android:id="@+id/select_mp3"
+        android:layout_width="159dp"
+        android:layout_height="56dp"
+        android:text="Select MP3"
+        android:backgroundTint="#15225D"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="120dp"
+        />
+
+    <Button
+        android:id="@+id/volumeUp"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:text="Volume Up"
+        android:backgroundTint="#15225D"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="50dp"
+        />
+
+    <Button
+        android:id="@+id/volumeDown"
+        android:layout_width="140dp"
+        android:layout_height="56dp"
+        android:text="Volume Down"
+        android:backgroundTint="#15225D"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="200dp"
+        />
+
+
+
+            <Button
+                android:id="@+id/BtnPause"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="420dp"
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/pause_song_icon"
+                android:tint="#FFFFFF"/>
+
+            <Button
+              android:id="@+id/BtnPlay"
+              android:layout_width="70dp"
+              android:layout_height="70dp"
+              android:layout_marginTop="420dp"
+              android:background="@drawable/play_song_icon"
+              android:layout_marginLeft="200dp" />
+
+            <Button
+                android:id="@+id/BtnNext"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="430dp"
+                android:background="@drawable/next_song_icon"
+                android:layout_marginLeft="300dp"/>
+
+            <Button
+                android:id="@+id/BtnPrevious"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="430dp"
+                android:background="@drawable/previous_icon"
+                android:layout_marginLeft="40dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="570dp"
+        android:src="@drawable/sss" />
+</RelativeLayout>

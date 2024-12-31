@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <!-- Title -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="AmpliTech Pro V2"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="322dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/sss" />
+
+    <!-- Large Text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:gravity="center"
+        android:text="Enhance Your World"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:fontFamily="sans-serif" />
+
+    <!-- Subtitle -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="565dp"
+        android:gravity="center"
+        android:text="Discover Better Hearing Here"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="610dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#15225D"
+            android:layout_marginEnd="20dp"
+            android:text="LOGIN"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:elevation="30dp"
+            android:outlineProvider="background"
+
+            />
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#15225D"
+            android:text="REGISTER"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:elevation="30dp"
+            android:outlineProvider="background"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <!-- Page Content -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="AmpliTech Pro V2"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/login_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login Here"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+    <!-- Input Fields -->
+    <LinearLayout
+        android:id="@+id/input_fields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_text"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_input"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Email or Username"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Password"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <!-- Forgot Password -->
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="230dp"
+        android:layout_below="@id/input_fields"
+        android:layout_centerHorizontal="true"
+        android:text="Forgot your password?"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <!-- Sign-In Button -->
+    <Button
+        android:id="@+id/login_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/input_fields"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#15225D"
+        android:textStyle="bold"
+        android:text="Log in"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif"
+        android:gravity="center" />
+
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="570dp"
+
+        android:src="@drawable/sss" />
+
+
+</RelativeLayout>

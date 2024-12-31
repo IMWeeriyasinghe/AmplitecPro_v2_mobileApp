@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+    <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/back"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <!-- App Name -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="90dp"
+        android:text="AmpliTech Pro V2"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textStyle="bold" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_centerHorizontal="true"
+        android:text="Battery Status"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:text="Connect to Hearing Aid Battery Status"
+        android:textStyle="bold"
+        android:backgroundTint="#15225D"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentLeft="true"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp" />
+
+    <!-- Hearing Aid Section -->
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@drawable/xx" />
+    </RelativeLayout>
+
+    <!-- Multimedia Section -->
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="385dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/aaaa"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/batteryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:layout_marginLeft="260dp"
+
+        android:text="Battery:0"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:textStyle="bold" />
+
+
+
+
+    <!-- Footer -->
+    <ImageView
+        android:layout_width="209dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="570dp"
+        android:src="@drawable/sss" />
+</RelativeLayout>
